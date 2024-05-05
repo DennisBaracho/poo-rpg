@@ -5,3 +5,10 @@ C:\Users\DENISE BARACHO\Documents\GitHub\poo-rpg-csharp\rpg-poo\rpg-poo\obj\Debu
 C:\Users\DENISE BARACHO\Documents\GitHub\poo-rpg-csharp\rpg-poo\rpg-poo\obj\Debug\rpg-poo.csproj.CoreCompileInputs.cache
 C:\Users\DENISE BARACHO\Documents\GitHub\poo-rpg-csharp\rpg-poo\rpg-poo\obj\Debug\rpg-poo.exe
 C:\Users\DENISE BARACHO\Documents\GitHub\poo-rpg-csharp\rpg-poo\rpg-poo\obj\Debug\rpg-poo.pdb
+C:\Users\DENISE BARACHO\Documents\GitHub\poo-rpg\rpg-poo\bin\Debug\rpg-poo.exe.config
+C:\Users\DENISE BARACHO\Documents\GitHub\poo-rpg\rpg-poo\bin\Debug\rpg-poo.exe
+C:\Users\DENISE BARACHO\Documents\GitHub\poo-rpg\rpg-poo\bin\Debug\rpg-poo.pdb
+C:\Users\DENISE BARACHO\Documents\GitHub\poo-rpg\rpg-poo\obj\Debug\rpg-poo.csproj.AssemblyReference.cache
+C:\Users\DENISE BARACHO\Documents\GitHub\poo-rpg\rpg-poo\obj\Debug\rpg-poo.csproj.CoreCompileInputs.cache
+C:\Users\DENISE BARACHO\Documents\GitHub\poo-rpg\rpg-poo\obj\Debug\rpg-poo.exe
+C:\Users\DENISE BARACHO\Documents\GitHub\poo-rpg\rpg-poo\obj\Debug\rpg-poo.pdb
