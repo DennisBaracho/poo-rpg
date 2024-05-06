@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|c:\\users\\denise baracho\\documents\\github\\poo-rpg\\rpg-poo\\sistemadecombate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|solutionrelative:rpg-poo\\sistemadecombate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|c:\\users\\denise baracho\\documents\\github\\poo-rpg\\rpg-poo\\monstro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|solutionrelative:rpg-poo\\monstro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\criacaojogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|solutionrelative:rpg-poo\\criacaojogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|solutionrelative:rpg-poo\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\sistemadecombate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|solutionrelative:rpg-poo\\sistemadecombate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\menujogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|solutionrelative:rpg-poo\\menujogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\criacaojogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|solutionrelative:rpg-poo\\criacaojogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,49 +39,73 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SistemaDeCombate.cs",
-              "DocumentMoniker": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\SistemaDeCombate.cs",
-              "RelativeDocumentMoniker": "rpg-poo\\SistemaDeCombate.cs",
-              "ToolTip": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\SistemaDeCombate.cs",
-              "RelativeToolTip": "rpg-poo\\SistemaDeCombate.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAgwJQAAAAAAAAA",
+              "Title": "Monstro.cs",
+              "DocumentMoniker": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\Monstro.cs",
+              "RelativeDocumentMoniker": "rpg-poo\\Monstro.cs",
+              "ToolTip": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\Monstro.cs",
+              "RelativeToolTip": "rpg-poo\\Monstro.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAswB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T12:44:38.215Z",
+              "WhenOpened": "2024-05-06T14:23:44.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Jogador.cs",
+              "DocumentMoniker": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\Jogador.cs",
+              "RelativeDocumentMoniker": "rpg-poo\\Jogador.cs",
+              "ToolTip": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\Jogador.cs",
+              "RelativeToolTip": "rpg-poo\\Jogador.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAmwG8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:15:29.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SistemaDeCombate.cs",
+              "DocumentMoniker": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\SistemaDeCombate.cs",
+              "RelativeDocumentMoniker": "rpg-poo\\SistemaDeCombate.cs",
+              "ToolTip": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\SistemaDeCombate.cs",
+              "RelativeToolTip": "rpg-poo\\SistemaDeCombate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T12:44:38.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CriacaoJogador.cs",
               "DocumentMoniker": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\CriacaoJogador.cs",
               "RelativeDocumentMoniker": "rpg-poo\\CriacaoJogador.cs",
               "ToolTip": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\CriacaoJogador.cs",
               "RelativeToolTip": "rpg-poo\\CriacaoJogador.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwCoAAAAeAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwDgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T19:13:36.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MenuJogo.cs",
               "DocumentMoniker": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\MenuJogo.cs",
               "RelativeDocumentMoniker": "rpg-poo\\MenuJogo.cs",
               "ToolTip": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\MenuJogo.cs",
               "RelativeToolTip": "rpg-poo\\MenuJogo.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBkAAABSAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwC8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T12:00:34.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\Program.cs",
               "RelativeDocumentMoniker": "rpg-poo\\Program.cs",
               "ToolTip": "C:\\Users\\DENISE BARACHO\\Documents\\GitHub\\poo-rpg\\rpg-poo\\Program.cs",
               "RelativeToolTip": "rpg-poo\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T18:38:27.612Z"
             }
