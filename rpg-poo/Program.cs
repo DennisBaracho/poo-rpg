@@ -10,9 +10,12 @@ namespace rpg_poo
     {
         static void Main(string[] args)
         {
-            CriacaoJogador c = new CriacaoJogador();
-            Menu();
+            Jogador jogador = new Jogador(); 
+            Monstro monstro = new Monstro(); 
+            CriacaoJogador criacaoJogador = new CriacaoJogador(jogador); 
+            Menu(jogador, monstro); 
             Console.ReadLine();
+
         }
     }
 }
