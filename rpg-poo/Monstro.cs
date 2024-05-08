@@ -45,13 +45,12 @@ class Monstro
     // Método de geração de monstros
     public void GerarMonstro(Monstro monstro, Jogador jogador)
     {
-        string[] tipos = new string[5]
+        string[] tipos = new string[4]
         {
         "Oni",
         "Rokurokubi",
         "Bakotsu",
         "Kappa",
-        "Gashadokuro"
         };
 
         Random TipoDeMonstro = new Random();

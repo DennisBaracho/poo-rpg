@@ -8,9 +8,9 @@ class MenuJogo : SistemaDeCombate
     public static void Menu(Jogador jogador)
     {
         {
-            int diasParaInvasao = 7;
+            
 
-            while (diasParaInvasao > 0)
+            while (jogador.NoitesSobrevividas < 7)
             {
                 Console.WriteLine("O que quer fazer? \n1. Caçar \n2. Dormir \n3. Me inspecionar \n4. Verificar dias até invasão \n5. Ajuda");
                 int menu = int.Parse(Console.ReadLine());
@@ -22,7 +22,7 @@ class MenuJogo : SistemaDeCombate
                         break;
                     case Opcao.Dormir:
                         Console.WriteLine("\nVocê está descansado! Vida e mana estão totalmente recuperados!");
-                        diasParaInvasao--;
+                        jogador.NoitesSobrevividas++;
                         jogador.Vida = jogador.VidaMax;
                         jogador.Mana = jogador.ManaMax;
                         break;
@@ -33,7 +33,7 @@ class MenuJogo : SistemaDeCombate
                         Limpar(6000);
                         break;
                     case Opcao.DiasAte:
-                        Console.WriteLine("\nFaltam " + diasParaInvasao + " dias para a invasão.");
+                        Console.WriteLine("\nFaltam " + (7-jogador.NoitesSobrevividas) + " dias para a invasão.");
                         break;
                     case Opcao.Ajuda:
                         Console.WriteLine("\nResumo de atributos:\nVIDA é o atributo que mantém seu personagem vivo, caso ele zere, o jogo acaba." +
@@ -58,7 +58,7 @@ class MenuJogo : SistemaDeCombate
                 }
                 Limpar(2000);
             }
-          
+            Combate(jogador);
         }
 
     }

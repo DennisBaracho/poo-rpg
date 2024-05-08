@@ -11,7 +11,6 @@ namespace rpg_poo
         static void Main(string[] args)
         {
             Jogador jogador = new Jogador(); // Instância do jogador
-           
             CriacaoJogador criacaoJogador = new CriacaoJogador(jogador); // Passando a instância do jogador para CriacaoJogador
             Menu(jogador); // Passando instâncias para o método Menu
             Console.ReadLine();

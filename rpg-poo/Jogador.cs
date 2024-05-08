@@ -22,8 +22,14 @@ namespace rpg_poo
         private int destreza;
         private int foraDeCombate;
         private int experiencia;
+        public int noitesSobrevividas = 0;
 
         // Get e Set
+        public int NoitesSobrevividas
+        {
+            get { return noitesSobrevividas; }
+            set { noitesSobrevividas = value; }
+        }
         public string Nome
         {
             get { return nome; }

@@ -39,12 +39,12 @@ class CriacaoJogador
                 case Classes.Ninja:
                     Console.WriteLine("Então você é um ninja...");
                     jogador.Classe = "Ninja";
-                    jogador.VidaMax = 20;
+                    jogador.VidaMax = 15;
                     jogador.Vida = jogador.VidaMax;
                     jogador.ManaMax = 10;
                     jogador.Mana = jogador.ManaMax;
                     jogador.Ataque = 10;
-                    jogador.Destreza = 15;
+                    jogador.Destreza = 20;
                     break;
                 case Classes.Xama:
                     Console.WriteLine("Então você é um xamã...");

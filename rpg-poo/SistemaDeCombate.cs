@@ -15,7 +15,17 @@ class SistemaDeCombate : Jogador
     public static void Combate(Jogador jogador)
     {
         Monstro monstro = new Monstro();
-        monstro.GerarMonstro(monstro, jogador);
+        if (jogador.NoitesSobrevividas < 7)
+        {
+            monstro.GerarMonstro(monstro, jogador);
+        }
+        else {
+            monstro.Nome = "Gashadokuro";
+            monstro.VidaMax = 55;
+            monstro.Ataque = 25;
+            monstro.Destreza = 15;
+        }
+       
         int seuTurno;
         Console.WriteLine("\nUm " + monstro.Nome + " aparece a sua frente!");
         if (jogador.Destreza > monstro.Destreza)
@@ -29,7 +39,7 @@ class SistemaDeCombate : Jogador
         else
         {
             seuTurno = 0;
-            monstro.Vida = 20;
+            monstro.Vida = monstro.VidaMax;
             jogador.ForaDeCombate = 0;
             Console.WriteLine(monstro.Nome + " ataca primeiro!");
         }
@@ -82,7 +92,7 @@ class SistemaDeCombate : Jogador
                         break;
 
                     case OpcaoCombate.Fugir:
-                        if (jogador.Destreza >= monstro.Destreza)
+                        if ((jogador.Destreza >= monstro.Destreza) && (monstro.Nome != "Gashadokuro"))
                         {
                             jogador.ForaDeCombate = 1;
                             Console.WriteLine("Você fugiu!");
