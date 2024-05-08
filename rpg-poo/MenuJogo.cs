@@ -2,7 +2,7 @@
 using System;
 class MenuJogo : SistemaDeCombate
 {
-    enum Opcao { Cacar = 1, Dormir, Eu, DiasAte }
+    enum Opcao { Cacar = 1, Dormir, Eu, DiasAte, Ajuda }
 
     public static void Menu(Jogador jogador, Monstro monstro)
     {
@@ -11,13 +11,13 @@ class MenuJogo : SistemaDeCombate
 
             while (diasParaInvasao > 0)
             {
-                Console.WriteLine("O que quer fazer? \n1. Caçar\n2. Dormir\n3. Me inspecionar \n4. Verificar dias até invasão");
+                Console.WriteLine("O que quer fazer? \n1. Caçar \n2. Dormir \n3. Me inspecionar \n4. Verificar dias até invasão \n5. Ajuda");
                 int menu = int.Parse(Console.ReadLine());
                 Opcao opcaoSelecionada = (Opcao)menu;
                 switch (opcaoSelecionada)
                 {
                     case Opcao.Cacar:
-                        Combate(jogador, monstro); // Passando instâncias para o método Combate
+                        Combate(jogador, monstro);
                         break;
                     case Opcao.Dormir:
                         Console.WriteLine("\nVocê está descansado! Vida e mana estão totalmente recuperados!");
@@ -29,9 +29,27 @@ class MenuJogo : SistemaDeCombate
                         Console.WriteLine("\nMeu nome é " + jogador.Nome + ".\nNível: " + jogador.Nivel + "\nClasse: " + jogador.Classe + ". " +
                             "\nMeus atributos são: \nVida: (" + jogador.Vida + "/" + jogador.VidaMax + ") | Mana: (" + jogador.Mana + "/" + jogador.ManaMax + ") \nAtaque: " + jogador.Ataque + "\nDestreza: " + jogador.Destreza +
                             "\nPontos de experiência: (" + jogador.Experiencia + "/" + (300 + (jogador.Nivel * 300)) + ")");
+                        Limpar(6000);
                         break;
                     case Opcao.DiasAte:
                         Console.WriteLine("\nFaltam " + diasParaInvasao + " dias para a invasão.");
+                        break;
+                    case Opcao.Ajuda:
+                        Console.WriteLine("\nResumo de atributos:\nVIDA é o atributo que mantém seu personagem vivo, caso ele zere, o jogo acaba." +
+                            "\nATAQUE é utilizado nas rolagens de acerto e dano aos inimigos.\nDESTREZA é utilizado para desviar de ataques de inimigos.\n");
+                        if(jogador.Classe == "Samurai")
+                        {
+                            Console.WriteLine("VENTOS REVIGORANTES: Seu personagem se cura em metade da Vida Máxima, " + ((jogador.VidaMax) / 2) + " pontos de Vida. Custo: 5 de Mana.");
+                        }
+                        else if(jogador.Classe == "Ninja")
+                        {
+                            Console.WriteLine("LÂMINA DAS SOMBRAS: Seu personagem ataca o inimigo furtivamente pelas costas, tendo acerto garantido e dano baseado na Destreza. Custo: 2 de Mana.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("RITUAL VAMPÍRICO: Seu personagem rouba a energia vital do oponente, causando dano garantido e se curando em metade do dano causado.");
+                        }
+                        Limpar(6000);
                         break;
                     default:
                         Console.WriteLine("\nNão existe essa opção\n");
