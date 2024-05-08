@@ -11,11 +11,10 @@ namespace rpg_poo
         static void Main(string[] args)
         {
             Jogador jogador = new Jogador(); // Instância do jogador
-            Monstro monstro = new Monstro(); // Instância do monstro
+           
             CriacaoJogador criacaoJogador = new CriacaoJogador(jogador); // Passando a instância do jogador para CriacaoJogador
-            Menu(jogador, monstro); // Passando instâncias para o método Menu
+            Menu(jogador); // Passando instâncias para o método Menu
             Console.ReadLine();
-
         }
     }
 }

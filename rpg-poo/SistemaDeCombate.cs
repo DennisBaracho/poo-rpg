@@ -1,6 +1,7 @@
 ﻿using rpg_poo;
 using System;
 using System.Diagnostics.Eventing.Reader;
+using System.Runtime.CompilerServices;
 class SistemaDeCombate : Jogador
 {
     enum OpcaoCombate { Atacar = 1, AtaqueEspecial = 2, Inspecionar = 3, Fugir = 4 }
@@ -11,12 +12,15 @@ class SistemaDeCombate : Jogador
         Console.Clear();
     }
 
-    public static void Combate(Jogador jogador, Monstro monstro)
+    public static void Combate(Jogador jogador)
     {
+        Monstro monstro = new Monstro();
+        monstro.GerarMonstro(monstro, jogador);
         int seuTurno;
         Console.WriteLine("\nUm " + monstro.Nome + " aparece a sua frente!");
         if (jogador.Destreza > monstro.Destreza)
         {
+            
             seuTurno = 1;
             monstro.Vida = monstro.VidaMax;
             jogador.ForaDeCombate = 0;

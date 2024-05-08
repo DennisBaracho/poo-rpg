@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace rpg_poo
 {
     enum OpcaoMelhorar { Vida = 1, Ataque = 2, Destreza = 3 }
-    internal class Jogador 
+    internal class Jogador
     {
         // Atributos do Jogador
         private string nome;

@@ -1,10 +1,11 @@
 ﻿using rpg_poo;
 using System;
+using System.Security.Cryptography.X509Certificates;
 class MenuJogo : SistemaDeCombate
 {
     enum Opcao { Cacar = 1, Dormir, Eu, DiasAte, Ajuda }
 
-    public static void Menu(Jogador jogador, Monstro monstro)
+    public static void Menu(Jogador jogador)
     {
         {
             int diasParaInvasao = 7;
@@ -17,7 +18,7 @@ class MenuJogo : SistemaDeCombate
                 switch (opcaoSelecionada)
                 {
                     case Opcao.Cacar:
-                        Combate(jogador, monstro);
+                        Combate(jogador);
                         break;
                     case Opcao.Dormir:
                         Console.WriteLine("\nVocê está descansado! Vida e mana estão totalmente recuperados!");
@@ -36,7 +37,7 @@ class MenuJogo : SistemaDeCombate
                         break;
                     case Opcao.Ajuda:
                         Console.WriteLine("\nResumo de atributos:\nVIDA é o atributo que mantém seu personagem vivo, caso ele zere, o jogo acaba." +
-                            "\nATAQUE é utilizado nas rolagens de acerto e dano aos inimigos.\nDESTREZA é utilizado para desviar de ataques de inimigos.\n");
+                            "\nATAQUE é utilizado nas rolagens de acerto e dano aos inimigos.\nDESTREZA é utilizado para desviar de ataques de inimigos.\n\nAtaque especial:");
                         if(jogador.Classe == "Samurai")
                         {
                             Console.WriteLine("VENTOS REVIGORANTES: Seu personagem se cura em metade da Vida Máxima, " + ((jogador.VidaMax) / 2) + " pontos de Vida. Custo: 5 de Mana.");
@@ -57,15 +58,7 @@ class MenuJogo : SistemaDeCombate
                 }
                 Limpar(2000);
             }
-            if (diasParaInvasao == 0)
-            {
-                monstro.Nome = "Oni";
-                monstro.Experiencia = 1000;
-                monstro.VidaMax = 40;
-                monstro.Ataque = 20;
-                monstro.Destreza = 15;
-                Combate(jogador, monstro); 
-            }
+          
         }
 
     }
