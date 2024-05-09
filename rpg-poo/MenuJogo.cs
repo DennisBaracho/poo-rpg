@@ -8,23 +8,25 @@ class MenuJogo : SistemaDeCombate
     public static void Menu(Jogador jogador)
     {
         {
-            
-
             while (jogador.NoitesSobrevividas < 7)
             {
-                Console.WriteLine("O que quer fazer? \n1. Caçar \n2. Dormir \n3. Me inspecionar \n4. Verificar dias até invasão \n5. Ajuda");
+                Console.WriteLine("Um reflexo distorcido do que já foi, Maōmachi pede socorro. Para chegar até a residência de sua família, circundada de criaturas, " +
+                    "serão necessários longos e intensos dias de luta, os Yokais não parecem sair de seus postos.\n\n" +
+                    "O que quer fazer? \n1. Caçar \n2. Dormir \n3. Me inspecionar \n4. Verificar dias até invasão \n5. Ajuda");
                 int menu = int.Parse(Console.ReadLine());
                 Opcao opcaoSelecionada = (Opcao)menu;
                 switch (opcaoSelecionada)
                 {
                     case Opcao.Cacar:
                         Combate(jogador);
+                        Limpar(2000);
                         break;
                     case Opcao.Dormir:
-                        Console.WriteLine("\nVocê está descansado! Vida e mana estão totalmente recuperados!");
+                        Console.WriteLine("\nVocê descansa em um abrigo. Vida e mana estão totalmente recuperados!");
                         jogador.NoitesSobrevividas++;
                         jogador.Vida = jogador.VidaMax;
                         jogador.Mana = jogador.ManaMax;
+                        Limpar(2000);
                         break;
                     case Opcao.Eu:
                         Console.WriteLine("\nMeu nome é " + jogador.Nome + ".\nNível: " + jogador.Nivel + "\nClasse: " + jogador.Classe + ". " +
@@ -33,7 +35,8 @@ class MenuJogo : SistemaDeCombate
                         Limpar(6000);
                         break;
                     case Opcao.DiasAte:
-                        Console.WriteLine("\nFaltam " + (7-jogador.NoitesSobrevividas) + " dias para a invasão.");
+                        Console.WriteLine("\nFaltam " + (7-jogador.NoitesSobrevividas) + " dias para a profecia do sábio.");
+                        Limpar(2000);
                         break;
                     case Opcao.Ajuda:
                         Console.WriteLine("\nResumo de atributos:\nVIDA é o atributo que mantém seu personagem vivo, caso ele zere, o jogo acaba." +
@@ -56,7 +59,6 @@ class MenuJogo : SistemaDeCombate
                         Console.WriteLine("\nNão existe essa opção\n");
                         break;
                 }
-                Limpar(2000);
             }
             Combate(jogador);
         }

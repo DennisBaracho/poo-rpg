@@ -4,7 +4,7 @@ using System.Diagnostics.Eventing.Reader;
 using System.Runtime.CompilerServices;
 class SistemaDeCombate : Jogador
 {
-    enum OpcaoCombate { Atacar = 1, AtaqueEspecial = 2, Inspecionar = 3, Fugir = 4 }
+    enum OpcaoCombate { Atacar = 1, AtaqueEspecial, Inspecionar, Fugir}
 
     public static void Limpar(int tempo)
     {
@@ -20,6 +20,12 @@ class SistemaDeCombate : Jogador
             monstro.GerarMonstro(monstro, jogador);
         }
         else {
+            monstro.Mensagem = "Numa noite escura e tempestuosa, o vilarejo ecoa apenas os uivos do vento. Pela primeira vez, estava realmente quieto. Satisfeito pelo que " +
+                "fez durante a última semana, você finalmente pode avançar para seu lar, subindo as escadas de madeira até a sala principal. Logo à sua frente, " +
+                "uma belíssima pedra avermelhada está exposta, é com certeza o tesouro da família. Repentinamente, O chão treme e algumas plantas caem no chão, um terremoto parece acometer a cidade. " +
+                "A poucos metros de distância, a figura esquelética do Gashadokuro emerge diretamente do solo. Seus ossos brilham com um fulgor fantasmagórico, e seus olhos sem vida " +
+                "fixaram-se no protagonista com uma intensidade gelada. Sem uma palavra, a monstruosidade parte na direção do que restou da residência de " + jogador.Nome + ", que, em meio ao terror" +
+                "se mostra valente e se coloca entre as memórias de sua família e a criatura que agora assola o vilarejo de sua infância.\n";
             monstro.Nome = "Gashadokuro";
             monstro.VidaMax = 55;
             monstro.Ataque = 25;
@@ -27,7 +33,7 @@ class SistemaDeCombate : Jogador
         }
        
         int seuTurno;
-        Console.WriteLine("\nUm " + monstro.Nome + " aparece a sua frente!");
+        Console.WriteLine(monstro.Mensagem);
         if (jogador.Destreza > monstro.Destreza)
         {
             
@@ -126,7 +132,7 @@ class SistemaDeCombate : Jogador
                 {
                     Random Dano = new Random();
                     int rolagemDano = Dano.Next(1, 10) + (monstro.Ataque - 10) / 2;
-                    Console.WriteLine("O " + monstro.Nome + " te acerta! Você sofreu " + rolagemDano + " de dano!\n");
+                    Console.WriteLine("Ele te acerta, causando " + rolagemDano + " de dano!\n");
                     jogador.Vida -= rolagemDano;
                     seuTurno = 1;
                 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace rpg_poo
 {
-    enum OpcaoMelhorar { Vida = 1, Ataque = 2, Destreza = 3 }
+    enum OpcaoMelhorar { Vida = 1, Ataque, Destreza}
     internal class Jogador
     {
         // Atributos do Jogador
@@ -133,7 +133,7 @@ namespace rpg_poo
             else if (jogador.Classe == "Ninja" && (jogador.ForaDeCombate == 0))
             {
                 Random Dano = new Random();
-                int rolagemDano = Dano.Next(3, 10) + (jogador.Destreza - 10) / 2;
+                int rolagemDano = Dano.Next(4, 10) + (jogador.Destreza - 10) / 2;
                 monstro.Vida -= rolagemDano;
                 jogador.Mana -= 2;
                 Console.WriteLine("Você golpeia as costas do inimigo com um ataque furtivo! Você causou " + rolagemDano + " de dano!\n");
@@ -142,7 +142,7 @@ namespace rpg_poo
             else if (jogador.Classe == "Xamã" && (jogador.ForaDeCombate == 0))
             {
                 Random Dano = new Random();
-                int rolagemDano = Dano.Next(1, 6) + (jogador.Ataque - 10) / 2;
+                int rolagemDano = Dano.Next(4, 8) + (jogador.Ataque - 10) / 2;
                 monstro.Vida -= rolagemDano;
                 jogador.Mana -= 5;
                 jogador.Vida += rolagemDano;
