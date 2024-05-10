@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\DENNIS\\Documents\\GitHub\\poo-rpg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|C:\\Users\\DENNIS\\Documents\\GitHub\\poo-rpg\\rpg-poo\\sistemadecombate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|c:\\users\\dennis\\documents\\github\\poo-rpg\\rpg-poo\\sistemadecombate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|solutionrelative:rpg-poo\\sistemadecombate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|solutionrelative:rpg-poo\\criacaojogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|c:\\users\\dennis\\documents\\github\\poo-rpg\\rpg-poo\\menujogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|C:\\Users\\DENNIS\\Documents\\GitHub\\poo-rpg\\rpg-poo\\menujogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A85F8243-D244-44D2-AF63-C5E333150378}|rpg-poo\\rpg-poo.csproj|solutionrelative:rpg-poo\\menujogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,8 +46,7 @@
               "RelativeToolTip": "rpg-poo\\Monstro.cs",
               "ViewState": "AQIAAE8AAAAAAAAAAADwv1UAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T14:23:44.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T14:23:44.303Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "rpg-poo\\Jogador.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAgwIwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T14:15:29.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T14:15:29.979Z"
             },
             {
               "$type": "Document",
@@ -70,7 +68,7 @@
               "RelativeDocumentMoniker": "rpg-poo\\SistemaDeCombate.cs",
               "ToolTip": "C:\\Users\\DENNIS\\Documents\\GitHub\\poo-rpg\\rpg-poo\\SistemaDeCombate.cs",
               "RelativeToolTip": "rpg-poo\\SistemaDeCombate.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAgwEwAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T12:44:38.215Z",
               "EditorCaption": ""
@@ -85,8 +83,7 @@
               "RelativeToolTip": "rpg-poo\\CriacaoJogador.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAYwDMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T19:13:36.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T19:13:36.431Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "rpg-poo\\MenuJogo.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwBAAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T12:00:34.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T12:00:34.028Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "rpg-poo\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T18:38:27.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T18:38:27.612Z"
             }
           ]
         }
