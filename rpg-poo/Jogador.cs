@@ -96,6 +96,8 @@ namespace rpg_poo
             {
                 jogador.Experiencia -= (300 + (jogador.Nivel * 300));
                 jogador.Nivel++;
+                jogador.VidaMax += 5;
+                jogador.ManaMax += 5;
                 Console.WriteLine("\nVocê subiu para o nível " + jogador.Nivel + "!");
                 Console.WriteLine("Selecione que atributo deseja melhorar:\n1. Vida     2. Ataque     3. Destreza");
                 int menuUp = int.Parse(Console.ReadLine());

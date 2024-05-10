@@ -1,0 +1,7 @@
+C:\Users\DENNIS\Documents\GitHub\poo-rpg\rpg-poo\bin\Release\rpg-poo.exe.config
+C:\Users\DENNIS\Documents\GitHub\poo-rpg\rpg-poo\bin\Release\rpg-poo.exe
+C:\Users\DENNIS\Documents\GitHub\poo-rpg\rpg-poo\bin\Release\rpg-poo.pdb
+C:\Users\DENNIS\Documents\GitHub\poo-rpg\rpg-poo\obj\Release\rpg-poo.csproj.AssemblyReference.cache
+C:\Users\DENNIS\Documents\GitHub\poo-rpg\rpg-poo\obj\Release\rpg-poo.csproj.CoreCompileInputs.cache
+C:\Users\DENNIS\Documents\GitHub\poo-rpg\rpg-poo\obj\Release\rpg-poo.exe
+C:\Users\DENNIS\Documents\GitHub\poo-rpg\rpg-poo\obj\Release\rpg-poo.pdb
